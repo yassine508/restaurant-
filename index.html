@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Website</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    
+    .hero-section {
+      height: 400px;
+      background-image: url('360_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    .hero-section h1 {
+      font-size: 3rem;
+    }
+    .hero-section .btn {
+      background-color: #ff6347;
+      color: white;
+    }
+   
+    .footer {
+      background-color: #343a40;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container">
+      <a class="navbar-brand" href="#">Cool Food</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section">
+    <div class="text-center">
+      <h1>Delicious Food Awaits You</h1>
+      <a href="#menu" class="btn btn-primary">Explore Our Menu</a>
+    </div>
+  </section>
+
+  <section id="menu" class="container py-5">
+    <h2 class="text-center mb-5">Our Menu</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="fresh-salad-food-news-header-desktop.jpg" class="card-img-top" alt="Dish 1">
+          <div class="card-body">
+            <h5 class="card-title">Dish 1</h5>
+            <p class="card-text">A delicious dish made with fresh ingredients.</p>
+            <p class="card-text"><strong>$15.99</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="fresh-salad-food-news-header-desktop.jpg" class="card-img-top" alt="Dish 2">
+          <div class="card-body">
+            <h5 class="card-title">Dish 2</h5>
+            <p class="card-text">A savory meal perfect for any occasion.</p>
+            <p class="card-text"><strong>$18.99</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="fresh-salad-food-news-header-desktop.jpg" class="card-img-top" alt="Dish 3">
+          <div class="card-body">
+            <h5 class="card-title">Dish 3</h5>
+            <p class="card-text">A mouth-watering dish full of flavor.</p>
+            <p class="card-text"><strong>$12.99</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-us" class="container py-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="LOGO.png" alt="About Us" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <h2>About Us</h2>
+        <p>We are a family-owned restaurant dedicated to bringing you the finest dining experience. Our passion for food drives us to create delicious, locally-sourced dishes that are sure to satisfy your taste buds.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container py-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Your Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Your Message</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Restaurant Name | All rights reserved.</p>
+    <div>
+      <a href="#" class="text-white mx-2">Facebook</a>
+      <a href="#" class="text-white mx-2">Instagram</a>
+      <a href="#" class="text-white mx-2">Twitter</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
